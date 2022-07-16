@@ -9,6 +9,7 @@ class Solution {
         while(i<n){
             /* Ignore Spaces */
             while(i<n && s.charAt(i) == ' ') i++;
+            /*when there is trailing spaces*/
             if(i>=n) break;
             j=i+1;
             /*Get the word*/
