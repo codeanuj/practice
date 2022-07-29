@@ -1,0 +1,17 @@
+public class Solution {
+    public int solve(int[] A, int B) {
+        
+        Arrays.sort(A);
+        int ans=Integer.MAX_VALUE;
+        int i=0;
+        for(int j=0; j<A.length; j++){
+            
+            if(j+1-B>=0){
+                ans= Math.min(ans, A[j]-A[i]);
+                i++;
+            }
+        }
+
+        return ans;
+  }
+}
