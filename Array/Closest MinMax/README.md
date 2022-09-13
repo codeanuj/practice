@@ -22,12 +22,13 @@ Return the length of the smallest subarray which has at least one occurrence of 
 
 
 
-Example Input
+Example
+
+Input
 Input 1:
-
 A = [1, 3]
-Input 2:
 
+Input 2:
 A = [2]
 
 
