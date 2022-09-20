@@ -24,3 +24,5 @@ class Solution {
         return true;
     }
 }
+
+Time Complexity - (n * Max bit size of data type)
